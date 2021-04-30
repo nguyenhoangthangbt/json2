@@ -1,11 +1,5 @@
 import pandas as pd
-import json
-import datetime
-import os
-import time
-import sqlalchemy
-import sqlite3
-from cryptography.fernet import Fernet
+import json,datetime,os,time,sqlalchemy,sqlite3
 
 conn = sqlite3.connect(
     r'D:\OneDrive - 5TB\Home-PC-working\10 Programming\python\2batdongsan\contact_BDS.db')
